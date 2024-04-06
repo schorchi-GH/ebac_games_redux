@@ -9,7 +9,7 @@ import carrinhoReducer from './reducers/carrinho'
 import api from '../services/api'
 
 const rootReducer = combineReducers({
-  carringo: carrinhoReducer,
+  carrinho: carrinhoReducer,
   [api.reducerPath]: api.reducer
 })
 
